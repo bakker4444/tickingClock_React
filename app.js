@@ -1,7 +1,6 @@
 const appContainer = document.getElementById("app")
 
 const render = () => {
-
     ReactDOM.render(
         React.createElement(
             "h1",
@@ -10,7 +9,6 @@ const render = () => {
         ),
         appContainer
     );
-    
 }
 
 setInterval(render, 1000);
